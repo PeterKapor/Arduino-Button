@@ -1,6 +1,6 @@
 # Examples
-Examples/**/Button.cpp
-Examples/**/Button.h
+examples/**/Button.cpp
+examples/**/Button.h
 
 # VS Code
 .vscode
