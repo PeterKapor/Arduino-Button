@@ -19,7 +19,7 @@ The kButton library is simple implementation for buttons. It can return states o
 - **02.ChangeLedStateOnPressButton** - toggle the LED when the button is pressed (in **pressed** stated)
 - **03.SendState** - send the button state to Serial Monitor
 
-## Function
+## Constructor and Methods
 - **Button**(uint8_t buttonPin, ButtonInputSetting buttonInputSetting = ButtonInputSetting::DownIsLow, uint32_t debounceDelay = 50)
   - buttonPin - pin where the button is connected
   - buttonInputSetting - type of button (DownIsLow or DownIsHigh), default is DownIsLow
