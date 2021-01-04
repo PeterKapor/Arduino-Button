@@ -5,18 +5,18 @@ The kButton library is simple implementation for buttons. It can return states o
 - Supports **debouncing**
   - default is 50
 - Supports multiple **states**
-  - **up** - when the button is up (not pressed)
-  - **down** - when the button is down (pressed)
-  - **changed** - when the state has been changed from the latest **refresh()**
-  - **released** - when the state has been changed to up
-  - **pressed** - when the state has been changed to down
+  - **Up** - when the button is up (not pressed)
+  - **Down** - when the button is down (pressed)
+  - **Changed** - when the state has been changed from the latest **refresh()**
+  - **Released** - when the state has been changed to up
+  - **Pressed** - when the state has been changed to down
 - Supports both types of button
   - **DownIsLow** - when the button is pressed, it is reading LOW
   - **DownIsHigh** - when the button is pressed, it is reading HIGH
 
 ## Examples
 - **01.TurnOnLedIfButtonPressed** - turn the LED on or off based on the state of the button (if the button is down the LED is on)
-- **02.ChangeLedStateOnPressButton** - toggle the LED when the button is pressed (in **pressed** stated)
+- **02.ChangeLedStateOnPressButton** - toggle the LED when the button is pressed (in **Pressed** stated)
 - **03.SendState** - send the button state to Serial Monitor
 
 ## Constructor and Methods
