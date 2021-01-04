@@ -13,6 +13,7 @@ The kButton library is simple implementation for buttons. It can return states o
 - Supports both types of button
   - **DownIsLow** - when the button is pressed, it is reading LOW
   - **DownIsHigh** - when the button is pressed, it is reading HIGH
+- Prepared support for multiple buttons (not yet tested)
 
 ## Examples
 - **01.TurnOnLedIfButtonPressed** - turn the LED on or off based on the state of the button (if the button is down the LED is on)
